@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title', '12m x 6m Luxury Granny Annexe Client Handover | The Granny Annexe Company')
+@section('title', '12m x 6m Steel Frame Garden Annexe | The Granny Annexe Company')
 
 @section('metas')
     <meta name="description" content="Explore this 12m x 6m bespoke steel-frame garden annexe, including its contemporary finishes, full specification and client handover.">
@@ -8,13 +8,13 @@
 
 @section('content')
     <section class="anx-story-detail-hero">
-        <img src="{{ url('frontend/assets/testimonials/yt-2pixAftz_uU.jpg') }}" alt="Completed granny annexe client story" class="anx-story-detail-hero__image">
+        <img src="{{ url('frontend/assets/testimonials/yt-xUhxD-xejOc.jpg') }}" alt="12m x 6m steel frame garden annexe" class="anx-story-detail-hero__image">
         <div class="anx-story-detail-hero__overlay"></div>
         <div class="container bs-container-1 anx-story-detail-hero__content">
             <span class="anx-eyebrow anx-eyebrow--light">Real client experience</span>
-            <h1>12m x 6m Luxury Granny Annexe Client Handover</h1>
+            <h1>12m x 6m Steel Frame Garden Annexe - Bespoke Garden Living with Contemporary Finishes</h1>
             <p>Discover this stunning 72m² bespoke luxury garden annexe, finished with contemporary composite cladding, generous bifold doors and complete modern living facilities.</p>
-            <button type="button" class="anx-story-detail__play js-anx-story" data-video="https://www.youtube.com/embed/2pixAftz_uU?autoplay=1&rel=0">
+            <button type="button" class="anx-story-detail__play js-anx-story" data-video="https://www.youtube.com/embed/xUhxD-xejOc?autoplay=1&rel=0">
                 <span><i class="fa-solid fa-play"></i></span> Watch the client story
             </button>
         </div>
@@ -86,8 +86,8 @@
     <section class="anx-story-detail-video">
         <div class="container bs-container-2">
             <div class="anx-story-detail-video__heading"><span class="anx-eyebrow">Watch our client handover</span><h2>See the finished annexe and hear about the client experience</h2><p>Watch Matt walk through this completed luxury garden annexe with our clients, showcasing the finished building and discussing their experience of the project.</p></div>
-            <button type="button" class="anx-story-detail-video__frame js-anx-story" data-video="https://www.youtube.com/embed/2pixAftz_uU?autoplay=1&rel=0" aria-label="Play the Staines client story">
-                <img src="{{ url('frontend/assets/testimonials/yt-2pixAftz_uU.jpg') }}" alt="12m x 6m luxury granny annexe client handover video">
+            <button type="button" class="anx-story-detail-video__frame js-anx-story" data-video="https://www.youtube.com/embed/xUhxD-xejOc?autoplay=1&rel=0" aria-label="Play the 12m x 6m steel frame garden annexe story">
+                <img src="{{ url('frontend/assets/testimonials/yt-xUhxD-xejOc.jpg') }}" alt="12m x 6m steel frame garden annexe video">
                 <span><i class="fa-solid fa-play"></i></span>
             </button>
         </div>

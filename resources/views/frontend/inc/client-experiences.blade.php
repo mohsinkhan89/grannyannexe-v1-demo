@@ -3,11 +3,11 @@
     $stories = [
         [
             'label' => 'Client story 01',
-            'title' => '12m x 6m Luxury Granny Annexe Client Handover',
-            'text' => 'Discover this stunning 72m² bespoke luxury garden annexe with contemporary finishes and complete modern living facilities.',
-            'image' => 'frontend/assets/testimonials/yt-2pixAftz_uU.jpg',
-            'video' => 'https://www.youtube.com/embed/2pixAftz_uU?autoplay=1&rel=0',
-            'slug' => '12m-x-6m-luxury-granny-annexe-client-handover',
+            'title' => '12m x 6m Steel Frame Garden Annexe - Bespoke Garden Living with Contemporary Finishes',
+            'text' => 'Discover this spacious 72m² bespoke steel-frame garden annexe with contemporary finishes and complete modern living facilities.',
+            'image' => 'frontend/assets/testimonials/yt-xUhxD-xejOc.jpg',
+            'video' => 'https://www.youtube.com/embed/xUhxD-xejOc?autoplay=1&rel=0',
+            'slug' => '12m-x-6m-steel-frame-garden-annexe-bespoke-garden-living',
         ],
         [
             'label' => 'Client story 02',
@@ -47,13 +47,6 @@
             'image' => 'frontend/assets/testimonials/cardiff-accessible-annexe.jpg',
             'video' => 'https://www.youtube.com/embed/AIauVVhyAy8?autoplay=1&rel=0',
             'slug' => '9m-x-6m-accessible-luxury-granny-annexe-client-handover',
-        ],
-        [
-            'label' => 'Client story 04',
-            'title' => 'Two Bedroom Annexe - Hollywood',
-            'text' => 'Watch the full handover and customer testimonial for this two-bedroom Birmingham project.',
-            'image' => 'frontend/assets/testimonials/yt-xUhxD-xejOc.jpg',
-            'video' => 'https://www.youtube.com/embed/xUhxD-xejOc?autoplay=1&rel=0',
         ],
         [
             'label' => 'Client story 05',
