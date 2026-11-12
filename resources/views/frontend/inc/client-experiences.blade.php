@@ -116,7 +116,10 @@
                         <span class="anx-story-card__kicker">Client video</span>
                         <h3>{{ $story['title'] }}</h3>
                         <p>{{ $story['text'] }}</p>
-                        <button type="button" class="anx-story-card__link js-anx-story" data-video="{{ $story['video'] }}">Watch the client video <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        <a href="{{ route('testimonialDetail') }}" class="bs-btn-1 onhover-border anx-story-card__button" aria-label="View {{ $story['title'] }} client story">
+                            <span class="text">VIEW CLIENT STORY</span>
+                            <span class="shape"></span>
+                        </a>
                     </div>
                 </article>
             @endforeach

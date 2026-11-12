@@ -95,6 +95,15 @@ class FrontendController extends Controller
         return view($view, compact('blogs', 'services', 'contentpages'));
     }
 
+    public function testimonialDetail()
+    {
+        $blogs = $this->getBlogs();
+        $services = $this->getServices();
+        $contentpages = $this->getContentPages();
+
+        return view('frontend.testimonial-detail', compact('blogs', 'services', 'contentpages'));
+    }
+
     public function process()
     {
         $view = 'frontend.process';
