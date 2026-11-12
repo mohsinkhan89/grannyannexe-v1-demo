@@ -26,10 +26,11 @@
         ],
         [
             'label' => 'Client story 03',
-            'title' => 'Cardiff Granny Annexe Handover',
-            'text' => 'Tour another completed project and see the details ready for the client handover.',
-            'image' => 'frontend/assets/testimonials/yt-AIauVVhyAy8.jpg',
+            'title' => '9m x 6m Accessible Luxury Granny Annexe Client Handover',
+            'text' => 'Explore this 54m² bespoke annexe with a pitched roof, accessible wet room, low-threshold entrance and external access ramp.',
+            'image' => 'frontend/assets/testimonials/cardiff-accessible-annexe.jpg',
             'video' => 'https://www.youtube.com/embed/AIauVVhyAy8?autoplay=1&rel=0',
+            'slug' => '9m-x-6m-accessible-luxury-granny-annexe-client-handover',
         ],
         [
             'label' => 'Client story 04',
@@ -70,10 +71,11 @@
         ],
         [
             'label' => 'Featured video 03',
-            'title' => 'Cardiff Granny Annexe Handover',
-            'text' => 'Tour a completed Cardiff project and see the details ready for the client handover.',
-            'image' => 'frontend/assets/img/client-videos/third-videos-img.png',
+            'title' => '9m x 6m Accessible Luxury Granny Annexe Client Handover',
+            'text' => 'Explore this 54m² bespoke annexe with a pitched roof, accessible wet room, low-threshold entrance and external access ramp.',
+            'image' => 'frontend/assets/testimonials/cardiff-accessible-annexe.jpg',
             'video' => 'https://www.youtube.com/embed/AIauVVhyAy8?autoplay=1&rel=0',
+            'slug' => '9m-x-6m-accessible-luxury-granny-annexe-client-handover',
         ],
     ];
     $visibleStories = $homeStories;
