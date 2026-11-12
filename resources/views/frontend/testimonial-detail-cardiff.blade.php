@@ -73,7 +73,7 @@
         </div>
     </section>
 
-    <section class="anx-story-detail-main">
+    <section class="anx-story-detail-main anx-story-detail-main--feature-pair" style="--feature-pair-image: url('{{ url('frontend/assets/testimonials/cardiff-accessible-annexe.jpg') }}');">
         <div class="container bs-container-2">
             <div class="anx-story-detail-main__grid">
                 <div class="anx-story-detail-main__copy">
