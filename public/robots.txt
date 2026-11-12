@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://grannyannexecompany.co.uk/sitemap.xml
+ 
+llms: https://grannyannexecompany.co.uk/llms.txt
