@@ -26,6 +26,14 @@
             'slug' => '6m-x-6-6m-contemporary-luxury-granny-annexe-client-handover',
         ],
         [
+            'label' => 'Client story 04',
+            'title' => '13.5m x 6.5m Luxury Two Bedroom Granny Annexe Client Handover',
+            'text' => 'Explore this substantial 87.75m² two-bedroom annexe with premium triple glazing, a spacious living area and complete modern facilities.',
+            'image' => 'frontend/assets/testimonials/sidcup-aerial.jpg',
+            'video' => null,
+            'slug' => '13-5m-x-6-5m-luxury-two-bedroom-granny-annexe-client-handover',
+        ],
+        [
             'label' => 'Client story 02',
             'title' => 'Stockton Granny Annexe',
             'text' => 'Explore the finish, layout and practical details of this completed Stockton annexe.',
