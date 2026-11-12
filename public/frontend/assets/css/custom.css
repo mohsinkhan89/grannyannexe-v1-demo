@@ -11147,7 +11147,8 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 }
 
 .anx-story-card__body p {
-    min-height: 78px;
+    /* min-height: 78px; */
+    min-height: 118px;
     margin: 0 0 23px;
     color: #68747a;
     line-height: 1.65
