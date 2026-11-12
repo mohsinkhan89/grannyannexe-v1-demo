@@ -3,69 +3,78 @@
     $stories = [
         [
             'label' => 'Client story 01',
-            'title' => 'Granny Annexe Handover - Staines',
-            'text' => 'Take a look around this completed bespoke annexe at the point of client handover.',
-            'image' => 'frontend/assets/testimonials/yt-2pixAftz_uU.jpg',
-            'video' => 'https://www.youtube.com/embed/2pixAftz_uU?autoplay=1&rel=0',
+            'title' => '12m x 6m Luxury Granny Annexe - Client Handover',
+            'text' => 'Discover this spacious 72m² bespoke steel-frame garden annexe with contemporary finishes and complete modern living facilities.',
+            'image' => 'frontend/assets/testimonials/video-gift-birmingham-hd.jpg',
+            'video' => 'https://www.youtube.com/embed/xUhxD-xejOc?autoplay=1&rel=0',
+            'slug' => '12m-x-6m-steel-frame-garden-annexe-bespoke-garden-living',
         ],
         [
             'label' => 'Client story 02',
+            'title' => '9.2m x 3.5m Contemporary Granny Annexe - Client Handover',
+            'text' => 'Explore this beautifully designed 32.2m² bespoke granny annexe, combining contemporary styling with practical, compact garden living.',
+            'image' => 'frontend/assets/testimonials/video-gift-bournemouth-hd.jpg',
+            'video' => 'https://www.youtube.com/embed/16wnYRjph90?autoplay=1&rel=0',
+            'slug' => '9-2m-x-3-5m-contemporary-granny-annexe-stylish-compact-garden-living',
+        ],
+        [
+            'label' => 'Client story 04',
+            'title' => '6m x 6.6m Contemporary Luxury Granny Annexe - Client Handover',
+            'text' => 'Explore this beautifully finished 39.6m² one-bedroom annexe with charcoal composite cladding and complete modern living facilities.',
+            'image' => 'frontend/assets/testimonials/video-gift-huddersfield-hd.jpg',
+            'video' => 'https://www.youtube.com/embed/xDsx6rpPP8I?autoplay=1&rel=0',
+            'slug' => '6m-x-6-6m-contemporary-luxury-granny-annexe-client-handover',
+        ],
+        [
+            'label' => 'Client story 05',
+            'title' => '9m x 4m Luxury Pitched Roof Granny Annexe - Client Handover',
+            'text' => 'Discover this charming 36m² one-bedroom annexe combining a traditional pitched roof with modern finishes and practical access.',
+            'image' => 'frontend/assets/testimonials/video-gift-oxford-hd.jpg',
+            'video' => 'https://www.youtube.com/embed/FS25t1QmEtY?autoplay=1&rel=0',
+            'slug' => '9m-x-4m-luxury-pitched-roof-granny-annexe-client-handover',
+        ],
+        [
+            'label' => 'Client story 07',
             'title' => 'Stockton Granny Annexe',
             'text' => 'Explore the finish, layout and practical details of this completed Stockton annexe.',
-            'image' => 'frontend/assets/testimonials/yt-j-3znarJCCM.jpg',
+            'image' => 'frontend/assets/testimonials/video-gift-stockton-hd.jpg',
             'video' => 'https://www.youtube.com/embed/j-3znarJCCM?autoplay=1&rel=0',
         ],
         [
             'label' => 'Client story 03',
-            'title' => 'Cardiff Granny Annexe Handover',
-            'text' => 'Tour another completed project and see the details ready for the client handover.',
-            'image' => 'frontend/assets/testimonials/yt-AIauVVhyAy8.jpg',
+            'title' => '9m x 6m Accessible Luxury Granny Annexe - Client Handover',
+            'text' => 'Explore this 54m² bespoke annexe with a pitched roof, accessible wet room, low-threshold entrance and external access ramp.',
+            'image' => 'frontend/assets/testimonials/video-gift-cardiff-hd.jpg',
             'video' => 'https://www.youtube.com/embed/AIauVVhyAy8?autoplay=1&rel=0',
-        ],
-        [
-            'label' => 'Client story 04',
-            'title' => 'Two Bedroom Annexe - Hollywood',
-            'text' => 'Watch the full handover and customer testimonial for this two-bedroom Birmingham project.',
-            'image' => 'frontend/assets/testimonials/yt-xUhxD-xejOc.jpg',
-            'video' => 'https://www.youtube.com/embed/xUhxD-xejOc?autoplay=1&rel=0',
-        ],
-        [
-            'label' => 'Client story 05',
-            'title' => 'Granny Annexe Handover - Oxford',
-            'text' => 'Step inside this completed Oxford annexe and see the finished space at handover.',
-            'image' => 'frontend/assets/testimonials/yt-FS25t1QmEtY.jpg',
-            'video' => 'https://www.youtube.com/embed/FS25t1QmEtY?autoplay=1&rel=0',
+            'slug' => '9m-x-6m-accessible-luxury-granny-annexe-client-handover',
         ],
         [
             'label' => 'Client story 06',
-            'title' => 'Steel Frame Granny Annexe Walkthrough',
-            'text' => 'A complete walkthrough of a modern, insulated and turnkey steel-frame granny annexe.',
-            'image' => 'frontend/assets/testimonials/yt-16wnYRjph90.jpg',
-            'video' => 'https://www.youtube.com/embed/16wnYRjph90?autoplay=1&rel=0',
+            'title' => '13.5m x 6.5m Luxury Two Bedroom Granny Annexe Client Handover',
+            'text' => 'Explore this substantial 87.75m² two-bedroom annexe with premium triple glazing, a spacious living area and complete modern facilities.',
+            'image' => 'frontend/assets/testimonials/sidcup-aerial.jpg',
+            'video' => null,
+            'slug' => '13-5m-x-6-5m-luxury-two-bedroom-granny-annexe-client-handover',
+        ],
+        [
+            'label' => 'Client story 08',
+            'title' => 'Granny Annexe Handover Staines',
+            'text' => 'Hear directly from our clients following the completion and handover of their new bespoke garden annexe in Staines.',
+            'image' => 'frontend/assets/testimonials/video-gift-staines-hd.jpg',
+            'video' => 'https://www.youtube.com/embed/2pixAftz_uU?autoplay=1&rel=0',
+        ],
+        [
+            'label' => 'Client story 09',
+            'title' => 'Behind the Scenes of a Granny Annexe Build',
+            'text' => 'See a high-quality steel-frame granny annexe take shape, from the early construction stages through to the final finishes.',
+            'image' => 'frontend/assets/testimonials/video-build-behind-scenes-hd.jpg',
+            'video' => 'https://www.youtube.com/embed/-8Eud1S0bwk?autoplay=1&rel=0',
         ],
     ];
     $homeStories = [
-        [
-            'label' => 'Featured video 01',
-            'title' => 'Granny Annexe Virtual Tour',
-            'text' => 'Take a closer look at one of our completed granny annexe projects and its finished living space.',
-            'image' => 'frontend/assets/img/client-videos/first-videos-img.png',
-            'video' => 'https://www.youtube.com/embed/-8Eud1S0bwk?autoplay=1&rel=0',
-        ],
-        [
-            'label' => 'Featured video 02',
-            'title' => 'Steel Frame Granny Annexe Walkthrough',
-            'text' => 'Explore a modern, insulated and turnkey steel-frame granny annexe from the inside.',
-            'image' => 'frontend/assets/img/client-videos/second-videos-img.png',
-            'video' => 'https://www.youtube.com/embed/16wnYRjph90?autoplay=1&rel=0',
-        ],
-        [
-            'label' => 'Featured video 03',
-            'title' => 'Cardiff Granny Annexe Handover',
-            'text' => 'Tour a completed Cardiff project and see the details ready for the client handover.',
-            'image' => 'frontend/assets/img/client-videos/third-videos-img.png',
-            'video' => 'https://www.youtube.com/embed/AIauVVhyAy8?autoplay=1&rel=0',
-        ],
+        $stories[0],
+        $stories[1],
+        $stories[5],
     ];
     $visibleStories = $homeStories;
 
@@ -73,11 +82,20 @@
         $visibleVideoUrls = array_column($homeStories, 'video');
 
         foreach ($stories as $story) {
-            if (!in_array($story['video'], $visibleVideoUrls, true)) {
+            $videoUrl = $story['video'] ?? null;
+
+            if (empty($videoUrl) || !in_array($videoUrl, $visibleVideoUrls, true)) {
                 $visibleStories[] = $story;
-                $visibleVideoUrls[] = $story['video'];
+
+                if (!empty($videoUrl)) {
+                    $visibleVideoUrls[] = $videoUrl;
+                }
             }
         }
+
+        usort($visibleStories, function ($firstStory, $secondStory) {
+            return (int) empty($firstStory['slug']) <=> (int) empty($secondStory['slug']);
+        });
     }
 @endphp
 
@@ -107,16 +125,21 @@
         <div class="anx-story-grid">
             @foreach ($visibleStories as $story)
                 <article class="anx-story-card">
-                    <button type="button" class="anx-story-card__media js-anx-story" data-video="{{ $story['video'] }}" aria-label="Play {{ $story['title'] }} video">
+                    <{{ !empty($story['video']) ? 'button type="button"' : 'div' }} class="anx-story-card__media{{ !empty($story['video']) ? ' js-anx-story' : '' }}" @if(!empty($story['video'])) data-video="{{ $story['video'] }}" aria-label="Play {{ $story['title'] }} video" @endif>
                         <img src="{{ url($story['image']) }}" loading="lazy" decoding="async" alt="{{ $story['title'] }}">
                         <span class="anx-story-card__tag">{{ $story['label'] }}</span>
-                        <span class="anx-story-card__play"><i class="fa-solid fa-play"></i></span>
-                    </button>
+                        @if(!empty($story['video']))<span class="anx-story-card__play"><i class="fa-solid fa-play"></i></span>@endif
+                    </{{ !empty($story['video']) ? 'button' : 'div' }}>
                     <div class="anx-story-card__body">
                         <span class="anx-story-card__kicker">Client video</span>
                         <h3>{{ $story['title'] }}</h3>
                         <p>{{ $story['text'] }}</p>
-                        <button type="button" class="anx-story-card__link js-anx-story" data-video="{{ $story['video'] }}">Watch the client video <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                        @if (!empty($story['slug']))
+                            <a href="{{ route('testimonialDetail', ['slug' => $story['slug']]) }}" class="bs-btn-1 onhover-border anx-story-card__button" aria-label="View {{ $story['title'] }} client story">
+                                <span class="text">VIEW CLIENT STORY</span>
+                                <span class="shape"></span>
+                            </a>
+                        @endif
                     </div>
                 </article>
             @endforeach

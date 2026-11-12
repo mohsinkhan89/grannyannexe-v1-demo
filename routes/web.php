@@ -25,6 +25,7 @@ Route::get("/services", [FrontendController::class , 'service'])->name('service'
 Route::get("/prices", [FrontendController::class , 'price'])->name('price');
 Route::get("/gallery", [FrontendController::class , 'gallery'])->name('gallery');
 Route::get("/client-testimonials", [FrontendController::class , 'testimonials'])->name('testimonials');
+Route::get("/client-testimonials/{slug}", [FrontendController::class , 'testimonialDetail'])->name('testimonialDetail');
 Route::get("/blog", [FrontendController::class , 'blogs'])->name('blogs');
 Route::get("/faq", [FrontendController::class , 'faq'])->name('faq');
 Route::get("/payment-milestone", [FrontendController::class , 'paymentmilestone'])->name('paymentmilestone');

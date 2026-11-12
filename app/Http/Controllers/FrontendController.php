@@ -95,6 +95,28 @@ class FrontendController extends Controller
         return view($view, compact('blogs', 'services', 'contentpages'));
     }
 
+    public function testimonialDetail($slug)
+    {
+        $testimonialPages = [
+            '12m-x-6m-luxury-granny-annexe-client-handover' => 'frontend.testimonial-detail',
+            '12m-x-6m-steel-frame-garden-annexe-bespoke-garden-living' => 'frontend.testimonial-detail',
+            '9-2m-x-3-5m-contemporary-granny-annexe-client-handover' => 'frontend.testimonial-detail-bournemouth',
+            '9-2m-x-3-5m-contemporary-granny-annexe-stylish-compact-garden-living' => 'frontend.testimonial-detail-bournemouth',
+            '9m-x-6m-accessible-luxury-granny-annexe-client-handover' => 'frontend.testimonial-detail-cardiff',
+            '6m-x-6-6m-contemporary-luxury-granny-annexe-client-handover' => 'frontend.testimonial-detail-huddersfield',
+            '9m-x-4m-luxury-pitched-roof-granny-annexe-client-handover' => 'frontend.testimonial-detail-oxford',
+            '13-5m-x-6-5m-luxury-two-bedroom-granny-annexe-client-handover' => 'frontend.testimonial-detail-sidcup',
+        ];
+
+        abort_unless(isset($testimonialPages[$slug]), 404);
+
+        $blogs = $this->getBlogs();
+        $services = $this->getServices();
+        $contentpages = $this->getContentPages();
+
+        return view($testimonialPages[$slug], compact('blogs', 'services', 'contentpages'));
+    }
+
     public function process()
     {
         $view = 'frontend.process';
