@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title', '9m x 6m Accessible Luxury Granny Annexe Client Handover | The Granny Annexe Company')
+@section('title', '9m x 6m Accessible Luxury Granny Annexe - Client Handover | The Granny Annexe Company')
 
 @section('metas')
     <meta name="description" content="Discover this 54m² accessible luxury granny annexe with a pitched roof, low-threshold bifold doors, access ramp and accessible wet room.">
@@ -12,7 +12,7 @@
         <div class="anx-story-detail-hero__overlay"></div>
         <div class="container bs-container-1 anx-story-detail-hero__content">
             <span class="anx-eyebrow anx-eyebrow--light">Real client experience</span>
-            <h1>9m x 6m Accessible Luxury Granny Annexe Client Handover</h1>
+            <h1>9m x 6m Accessible Luxury Granny Annexe - Client Handover</h1>
             <p>Discover this beautifully designed 54m² bespoke granny annexe, featuring an attractive pitched roof, contemporary finishes, 3m bifold doors and thoughtful accessibility features.</p>
             <button type="button" class="anx-story-detail__play js-anx-story" data-video="https://www.youtube.com/embed/AIauVVhyAy8?autoplay=1&amp;rel=0"><span><i class="fa-solid fa-play"></i></span> Watch the client story</button>
         </div>

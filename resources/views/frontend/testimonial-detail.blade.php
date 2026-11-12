@@ -12,7 +12,7 @@
         <div class="anx-story-detail-hero__overlay"></div>
         <div class="container bs-container-1 anx-story-detail-hero__content">
             <span class="anx-eyebrow anx-eyebrow--light">Real client experience</span>
-            <h1>12m x 6m Steel Frame Garden Annexe - Bespoke Garden Living with Contemporary Finishes</h1>
+            <h1>12m x 6m Luxury <br> Granny Annexe - Client Handover</h1>
             <p>Discover this stunning 72m² bespoke luxury garden annexe, finished with contemporary composite cladding, generous bifold doors and complete modern living facilities.</p>
             <button type="button" class="anx-story-detail__play js-anx-story" data-video="https://www.youtube.com/embed/xUhxD-xejOc?autoplay=1&rel=0">
                 <span><i class="fa-solid fa-play"></i></span> Watch the client story

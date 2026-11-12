@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title', '6m x 6.6m Contemporary Luxury Granny Annexe Client Handover | The Granny Annexe Company')
+@section('title', '6m x 6.6m Contemporary Luxury Granny Annexe - Client Handover | The Granny Annexe Company')
 
 @section('metas')
     <meta name="description" content="Explore this 39.6m² contemporary one-bedroom granny annexe with charcoal composite cladding, a fitted kitchen and modern shower room.">
@@ -12,7 +12,7 @@
         <div class="anx-story-detail-hero__overlay"></div>
         <div class="container bs-container-1 anx-story-detail-hero__content">
             <span class="anx-eyebrow anx-eyebrow--light">Real client experience</span>
-            <h1>6m x 6.6m Contemporary Luxury Granny Annexe Client Handover</h1>
+            <h1>6m x 6.6m Contemporary Luxury Granny Annexe - Client Handover</h1>
             <p>Explore this beautifully finished 39.6m² steel frame granny annexe, featuring contemporary composite cladding, anthracite triple-glazed French doors, a fitted kitchen, modern shower room and stylish interior finishes.</p>
             <button type="button" class="anx-story-detail__play js-anx-story" data-video="https://www.youtube.com/embed/xDsx6rpPP8I?autoplay=1&amp;rel=0"><span><i class="fa-solid fa-play"></i></span> Watch the client story</button>
         </div>

@@ -3,7 +3,7 @@
     $stories = [
         [
             'label' => 'Client story 01',
-            'title' => '12m x 6m Steel Frame Garden Annexe - Bespoke Garden Living with Contemporary Finishes',
+            'title' => '12m x 6m Luxury Granny Annexe - Client Handover',
             'text' => 'Discover this spacious 72m² bespoke steel-frame garden annexe with contemporary finishes and complete modern living facilities.',
             'image' => 'frontend/assets/testimonials/yt-xUhxD-xejOc.jpg',
             'video' => 'https://www.youtube.com/embed/xUhxD-xejOc?autoplay=1&rel=0',
@@ -11,7 +11,7 @@
         ],
         [
             'label' => 'Client story 02',
-            'title' => '9.2m x 3.5m Contemporary Granny Annexe - Stylish, Compact Garden Living',
+            'title' => '9.2m x 3.5m Contemporary Granny Annexe - Client Handover',
             'text' => 'Explore this beautifully designed 32.2m² bespoke granny annexe, combining contemporary styling with practical, compact garden living.',
             'image' => 'frontend/assets/testimonials/yt-16wnYRjph90.jpg',
             'video' => 'https://www.youtube.com/embed/16wnYRjph90?autoplay=1&rel=0',
@@ -19,7 +19,7 @@
         ],
         [
             'label' => 'Client story 03',
-            'title' => '6m x 6.6m Contemporary Luxury Granny Annexe Client Handover',
+            'title' => '6m x 6.6m Contemporary Luxury Granny Annexe - Client Handover',
             'text' => 'Explore this beautifully finished 39.6m² one-bedroom annexe with charcoal composite cladding and complete modern living facilities.',
             'image' => 'frontend/assets/testimonials/huddersfield-charcoal-annexe.png',
             'video' => 'https://www.youtube.com/embed/xDsx6rpPP8I?autoplay=1&rel=0',
@@ -42,7 +42,7 @@
         ],
         [
             'label' => 'Client story 03',
-            'title' => '9m x 6m Accessible Luxury Granny Annexe Client Handover',
+            'title' => '9m x 6m Accessible Luxury Granny Annexe - Client Handover',
             'text' => 'Explore this 54m² bespoke annexe with a pitched roof, accessible wet room, low-threshold entrance and external access ramp.',
             'image' => 'frontend/assets/testimonials/cardiff-accessible-annexe.jpg',
             'video' => 'https://www.youtube.com/embed/AIauVVhyAy8?autoplay=1&rel=0',
@@ -50,7 +50,7 @@
         ],
         [
             'label' => 'Client story 05',
-            'title' => '9m x 4m Luxury Pitched Roof Granny Annexe Client Handover',
+            'title' => '9m x 4m Luxury Pitched Roof Granny Annexe - Client Handover',
             'text' => 'Discover this charming 36m² one-bedroom annexe combining a traditional pitched roof with modern finishes and practical access.',
             'image' => 'frontend/assets/testimonials/oxford-aerial.jpg',
             'video' => 'https://www.youtube.com/embed/FS25t1QmEtY?autoplay=1&rel=0',
@@ -67,7 +67,7 @@
         ],
         [
             'label' => 'Featured video 02',
-            'title' => '9.2m x 3.5m Contemporary Granny Annexe - Stylish, Compact Garden Living',
+            'title' => '9.2m x 3.5m Contemporary Granny Annexe - Client Handover',
             'text' => 'Explore this beautifully designed 32.2m² bespoke granny annexe, combining contemporary styling with practical, compact garden living.',
             'image' => 'frontend/assets/testimonials/yt-16wnYRjph90.jpg',
             'video' => 'https://www.youtube.com/embed/16wnYRjph90?autoplay=1&rel=0',
@@ -75,7 +75,7 @@
         ],
         [
             'label' => 'Featured video 03',
-            'title' => '9m x 6m Accessible Luxury Granny Annexe Client Handover',
+            'title' => '9m x 6m Accessible Luxury Granny Annexe - Client Handover',
             'text' => 'Explore this 54m² bespoke annexe with a pitched roof, accessible wet room, low-threshold entrance and external access ramp.',
             'image' => 'frontend/assets/testimonials/cardiff-accessible-annexe.jpg',
             'video' => 'https://www.youtube.com/embed/AIauVVhyAy8?autoplay=1&rel=0',

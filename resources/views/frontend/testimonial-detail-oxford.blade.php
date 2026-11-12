@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title', '9m x 4m Luxury Pitched Roof Granny Annexe Client Handover | The Granny Annexe Company')
+@section('title', '9m x 4m Luxury Pitched Roof Granny Annexe - Client Handover | The Granny Annexe Company')
 
 @section('metas')
     <meta name="description" content="Discover this 36m² one-bedroom luxury granny annexe with a dual-pitched roof, modern kitchen, shower room and practical access ramp.">
@@ -12,7 +12,7 @@
         <div class="anx-story-detail-hero__overlay"></div>
         <div class="container bs-container-1 anx-story-detail-hero__content">
             <span class="anx-eyebrow anx-eyebrow--light">Real client experience</span>
-            <h1>9m x 4m Luxury Pitched Roof Granny Annexe Client Handover</h1>
+            <h1>9m x 4m Luxury Pitched Roof Granny Annexe - Client Handover</h1>
             <p>Discover this beautifully designed 36m² bespoke granny annexe, featuring a traditional dual-pitched steel roof, contemporary composite cladding, French doors, a fitted kitchenette, modern shower room and practical access ramp.</p>
             <button type="button" class="anx-story-detail__play js-anx-story" data-video="https://www.youtube.com/embed/FS25t1QmEtY?autoplay=1&amp;rel=0"><span><i class="fa-solid fa-play"></i></span> Watch the client story</button>
         </div>

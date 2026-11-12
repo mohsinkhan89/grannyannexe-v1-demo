@@ -12,7 +12,7 @@
         <div class="anx-story-detail-hero__overlay"></div>
         <div class="container bs-container-1 anx-story-detail-hero__content">
             <span class="anx-eyebrow anx-eyebrow--light">Real client experience</span>
-            <h1>9.2m x 3.5m Contemporary Granny Annexe - Stylish, Compact Garden Living</h1>
+            <h1>9.2m x 3.5m Contemporary Granny Annexe - Client Handover</h1>
             <p>Explore this beautifully designed 32m² bespoke granny annexe, combining stylish composite cladding, an EPDM flat roof with skylight, anthracite windows, aluminium French doors, a fitted kitchen and modern shower room.</p>
             <button type="button" class="anx-story-detail__play js-anx-story" data-video="https://www.youtube.com/embed/16wnYRjph90?autoplay=1&amp;rel=0"><span><i class="fa-solid fa-play"></i></span> Watch the client story</button>
         </div>
