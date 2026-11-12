@@ -49,10 +49,11 @@
         ],
         [
             'label' => 'Client story 05',
-            'title' => 'Granny Annexe Handover - Oxford',
-            'text' => 'Step inside this completed Oxford annexe and see the finished space at handover.',
-            'image' => 'frontend/assets/testimonials/yt-FS25t1QmEtY.jpg',
+            'title' => '9m x 4m Luxury Pitched Roof Granny Annexe Client Handover',
+            'text' => 'Discover this charming 36m² one-bedroom annexe combining a traditional pitched roof with modern finishes and practical access.',
+            'image' => 'frontend/assets/testimonials/oxford-aerial.jpg',
             'video' => 'https://www.youtube.com/embed/FS25t1QmEtY?autoplay=1&rel=0',
+            'slug' => '9m-x-4m-luxury-pitched-roof-granny-annexe-client-handover',
         ],
         [
             'label' => 'Client story 06',

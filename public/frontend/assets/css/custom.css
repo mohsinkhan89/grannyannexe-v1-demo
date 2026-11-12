@@ -12664,3 +12664,45 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
         padding: 24px 20px;
     }
 }
+.anx-story-gallery {
+    padding: 110px 0;
+    background: #f4f1e9;
+}
+
+.anx-story-gallery__heading {
+    max-width: 760px;
+    margin-bottom: 42px;
+}
+
+.anx-story-gallery__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.anx-story-gallery__item {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 380px;
+    background: #ddd;
+}
+
+.anx-story-gallery__item img {
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+    object-fit: cover;
+    transition: transform .55s ease, filter .55s ease;
+}
+
+.anx-story-gallery__item:hover img {
+    transform: scale(1.035);
+    filter: saturate(1.08);
+}
+
+@media (max-width: 767px) {
+    .anx-story-gallery { padding: 72px 0; }
+    .anx-story-gallery__grid { grid-template-columns: 1fr; gap: 16px; }
+    .anx-story-gallery__item, .anx-story-gallery__item img { min-height: 250px; }
+}

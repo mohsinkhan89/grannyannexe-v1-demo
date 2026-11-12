@@ -102,6 +102,7 @@ class FrontendController extends Controller
             '9-2m-x-3-5m-contemporary-granny-annexe-client-handover' => 'frontend.testimonial-detail-bournemouth',
             '9m-x-6m-accessible-luxury-granny-annexe-client-handover' => 'frontend.testimonial-detail-cardiff',
             '6m-x-6-6m-contemporary-luxury-granny-annexe-client-handover' => 'frontend.testimonial-detail-huddersfield',
+            '9m-x-4m-luxury-pitched-roof-granny-annexe-client-handover' => 'frontend.testimonial-detail-oxford',
         ];
 
         abort_unless(isset($testimonialPages[$slug]), 404);
