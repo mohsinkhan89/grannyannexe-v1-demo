@@ -12279,7 +12279,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 /* Testimonial detail modern section refinements */
 .anx-story-detail-main {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .anx-story-detail-main::before {
@@ -12302,6 +12302,7 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 .anx-story-detail__quote {
     position: sticky;
     top: 120px;
+    align-self: start;
     padding: 46px;
     border-top: 4px solid var(--bs-clr-pr-1);
     background: var(--bs-clr-h-4);
