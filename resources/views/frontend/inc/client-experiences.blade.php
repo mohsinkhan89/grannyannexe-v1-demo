@@ -11,6 +11,14 @@
         ],
         [
             'label' => 'Client story 02',
+            'title' => '9.2m x 3.5m Contemporary Granny Annexe Client Handover',
+            'text' => 'Explore this beautifully designed 32.2m² bespoke granny annexe, combining contemporary styling with practical, compact garden living.',
+            'image' => 'frontend/assets/img/client-videos/second-videos-img.png',
+            'video' => null,
+            'slug' => '9-2m-x-3-5m-contemporary-granny-annexe-client-handover',
+        ],
+        [
+            'label' => 'Client story 02',
             'title' => 'Stockton Granny Annexe',
             'text' => 'Explore the finish, layout and practical details of this completed Stockton annexe.',
             'image' => 'frontend/assets/testimonials/yt-j-3znarJCCM.jpg',
@@ -108,11 +116,11 @@
         <div class="anx-story-grid">
             @foreach ($visibleStories as $story)
                 <article class="anx-story-card">
-                    <button type="button" class="anx-story-card__media js-anx-story" data-video="{{ $story['video'] }}" aria-label="Play {{ $story['title'] }} video">
+                    <{{ !empty($story['video']) ? 'button type="button"' : 'div' }} class="anx-story-card__media{{ !empty($story['video']) ? ' js-anx-story' : '' }}" @if(!empty($story['video'])) data-video="{{ $story['video'] }}" aria-label="Play {{ $story['title'] }} video" @endif>
                         <img src="{{ url($story['image']) }}" loading="lazy" decoding="async" alt="{{ $story['title'] }}">
                         <span class="anx-story-card__tag">{{ $story['label'] }}</span>
-                        <span class="anx-story-card__play"><i class="fa-solid fa-play"></i></span>
-                    </button>
+                        @if(!empty($story['video']))<span class="anx-story-card__play"><i class="fa-solid fa-play"></i></span>@endif
+                    </{{ !empty($story['video']) ? 'button' : 'div' }}>
                     <div class="anx-story-card__body">
                         <span class="anx-story-card__kicker">Client video</span>
                         <h3>{{ $story['title'] }}</h3>

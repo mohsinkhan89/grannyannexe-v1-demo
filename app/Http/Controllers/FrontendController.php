@@ -99,6 +99,7 @@ class FrontendController extends Controller
     {
         $testimonialPages = [
             '12m-x-6m-luxury-granny-annexe-client-handover' => 'frontend.testimonial-detail',
+            '9-2m-x-3-5m-contemporary-granny-annexe-client-handover' => 'frontend.testimonial-detail-bournemouth',
         ];
 
         abort_unless(isset($testimonialPages[$slug]), 404);
