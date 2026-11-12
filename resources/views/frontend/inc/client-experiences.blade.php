@@ -3,10 +3,11 @@
     $stories = [
         [
             'label' => 'Client story 01',
-            'title' => 'Granny Annexe Handover - Staines',
-            'text' => 'Take a look around this completed bespoke annexe at the point of client handover.',
+            'title' => '12m x 6m Luxury Granny Annexe Client Handover',
+            'text' => 'Discover this stunning 72m² bespoke luxury garden annexe with contemporary finishes and complete modern living facilities.',
             'image' => 'frontend/assets/testimonials/yt-2pixAftz_uU.jpg',
             'video' => 'https://www.youtube.com/embed/2pixAftz_uU?autoplay=1&rel=0',
+            'slug' => '12m-x-6m-luxury-granny-annexe-client-handover',
         ],
         [
             'label' => 'Client story 02',
@@ -116,10 +117,12 @@
                         <span class="anx-story-card__kicker">Client video</span>
                         <h3>{{ $story['title'] }}</h3>
                         <p>{{ $story['text'] }}</p>
-                        <a href="{{ route('testimonialDetail') }}" class="bs-btn-1 onhover-border anx-story-card__button" aria-label="View {{ $story['title'] }} client story">
-                            <span class="text">VIEW CLIENT STORY</span>
-                            <span class="shape"></span>
-                        </a>
+                        @if (!empty($story['slug']))
+                            <a href="{{ route('testimonialDetail', ['slug' => $story['slug']]) }}" class="bs-btn-1 onhover-border anx-story-card__button" aria-label="View {{ $story['title'] }} client story">
+                                <span class="text">VIEW CLIENT STORY</span>
+                                <span class="shape"></span>
+                            </a>
+                        @endif
                     </div>
                 </article>
             @endforeach

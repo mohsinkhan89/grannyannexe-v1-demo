@@ -95,13 +95,19 @@ class FrontendController extends Controller
         return view($view, compact('blogs', 'services', 'contentpages'));
     }
 
-    public function testimonialDetail()
+    public function testimonialDetail($slug)
     {
+        $testimonialPages = [
+            '12m-x-6m-luxury-granny-annexe-client-handover' => 'frontend.testimonial-detail',
+        ];
+
+        abort_unless(isset($testimonialPages[$slug]), 404);
+
         $blogs = $this->getBlogs();
         $services = $this->getServices();
         $contentpages = $this->getContentPages();
 
-        return view('frontend.testimonial-detail', compact('blogs', 'services', 'contentpages'));
+        return view($testimonialPages[$slug], compact('blogs', 'services', 'contentpages'));
     }
 
     public function process()
