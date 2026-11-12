@@ -88,11 +88,20 @@
         $visibleVideoUrls = array_column($homeStories, 'video');
 
         foreach ($stories as $story) {
-            if (!in_array($story['video'], $visibleVideoUrls, true)) {
+            $videoUrl = $story['video'] ?? null;
+
+            if (empty($videoUrl) || !in_array($videoUrl, $visibleVideoUrls, true)) {
                 $visibleStories[] = $story;
-                $visibleVideoUrls[] = $story['video'];
+
+                if (!empty($videoUrl)) {
+                    $visibleVideoUrls[] = $videoUrl;
+                }
             }
         }
+
+        usort($visibleStories, function ($firstStory, $secondStory) {
+            return (int) empty($firstStory['slug']) <=> (int) empty($secondStory['slug']);
+        });
     }
 @endphp
 
