@@ -18,6 +18,14 @@
             'slug' => '9-2m-x-3-5m-contemporary-granny-annexe-client-handover',
         ],
         [
+            'label' => 'Client story 03',
+            'title' => '6m x 6.6m Contemporary Luxury Granny Annexe Client Handover',
+            'text' => 'Explore this beautifully finished 39.6m² one-bedroom annexe with charcoal composite cladding and complete modern living facilities.',
+            'image' => 'frontend/assets/testimonials/huddersfield-charcoal-annexe.png',
+            'video' => null,
+            'slug' => '6m-x-6-6m-contemporary-luxury-granny-annexe-client-handover',
+        ],
+        [
             'label' => 'Client story 02',
             'title' => 'Stockton Granny Annexe',
             'text' => 'Explore the finish, layout and practical details of this completed Stockton annexe.',
