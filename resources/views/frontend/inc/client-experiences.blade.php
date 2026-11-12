@@ -22,7 +22,7 @@
             'title' => '6m x 6.6m Contemporary Luxury Granny Annexe Client Handover',
             'text' => 'Explore this beautifully finished 39.6m² one-bedroom annexe with charcoal composite cladding and complete modern living facilities.',
             'image' => 'frontend/assets/testimonials/huddersfield-charcoal-annexe.png',
-            'video' => null,
+            'video' => 'https://www.youtube.com/embed/xDsx6rpPP8I?autoplay=1&rel=0',
             'slug' => '6m-x-6-6m-contemporary-luxury-granny-annexe-client-handover',
         ],
         [

@@ -14,6 +14,7 @@
             <span class="anx-eyebrow anx-eyebrow--light">Real client experience</span>
             <h1>6m x 6.6m Contemporary Luxury Granny Annexe Client Handover</h1>
             <p>Explore this beautifully finished 39.6m² steel frame granny annexe, featuring contemporary composite cladding, anthracite triple-glazed French doors, a fitted kitchen, modern shower room and stylish interior finishes.</p>
+            <button type="button" class="anx-story-detail__play js-anx-story" data-video="https://www.youtube.com/embed/xDsx6rpPP8I?autoplay=1&amp;rel=0"><span><i class="fa-solid fa-play"></i></span> Watch the client story</button>
         </div>
     </section>
 
@@ -94,7 +95,7 @@
     <section class="anx-story-detail-video">
         <div class="container bs-container-2">
             <div class="anx-story-detail-video__heading"><span class="anx-eyebrow">Client handover</span><h2>Discover the finished contemporary annexe</h2><p>Join Matt as he hands over this stunning garden annexe and explores how thoughtful design and quality finishes create a comfortable, practical living space within a compact footprint.</p></div>
-            <div class="anx-story-detail-video__frame"><img src="{{ url('frontend/assets/testimonials/huddersfield-charcoal-annexe.png') }}" alt="Huddersfield contemporary luxury granny annexe client handover"></div>
+            <button type="button" class="anx-story-detail-video__frame js-anx-story" data-video="https://www.youtube.com/embed/xDsx6rpPP8I?autoplay=1&amp;rel=0" aria-label="Play the Huddersfield client handover"><img src="{{ url('frontend/assets/testimonials/huddersfield-charcoal-annexe.png') }}" alt="Huddersfield contemporary luxury granny annexe client handover"><span><i class="fa-solid fa-play"></i></span></button>
         </div>
     </section>
 
@@ -104,4 +105,17 @@
             <a href="{{ route('contact') }}" class="bs-btn-1 onhover-border"><span class="text">PLAN YOUR ANNEXE</span><span class="shape"></span></a>
         </div>
     </section>
+
+    <div class="anx-story-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Client experience video"><button class="anx-story-modal__backdrop js-anx-story-close" type="button" aria-label="Close video"></button><div class="anx-story-modal__panel"><button class="anx-story-modal__close js-anx-story-close" type="button" aria-label="Close video"><i class="fa-solid fa-xmark"></i></button><iframe src="about:blank" title="Huddersfield client handover video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div></div>
 @endsection
+
+@push('anxExperienceScripts')
+<script>
+document.addEventListener('click', function (event) {
+    const modal = document.querySelector('.anx-story-modal'); const trigger = event.target.closest('.js-anx-story');
+    if (trigger && modal) { modal.querySelector('iframe').src = trigger.dataset.video; modal.classList.add('is-open'); modal.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; }
+    if (event.target.closest('.js-anx-story-close') && modal) { modal.classList.remove('is-open'); modal.setAttribute('aria-hidden', 'true'); modal.querySelector('iframe').src = 'about:blank'; document.body.style.overflow = ''; }
+});
+document.addEventListener('keydown', function (event) { if (event.key === 'Escape') { const close = document.querySelector('.anx-story-modal.is-open .js-anx-story-close'); if (close) close.click(); } });
+</script>
+@endpush
