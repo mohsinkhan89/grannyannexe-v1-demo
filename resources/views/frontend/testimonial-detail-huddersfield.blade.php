@@ -35,7 +35,7 @@
                 <aside class="anx-story-detail__quote">
                     <div class="anx-story-detail__quote-mark"><i class="fa-solid fa-quote-left"></i></div>
                     <blockquote>Thoughtful design and quality finishes create a comfortable, practical living space within a compact footprint.</blockquote>
-                    <div class="anx-story-detail__reviewer"><strong>Contemporary garden living</strong><small>Client handover</small></div>
+                    <div class="anx-story-detail__reviewer"><span class="anx-story-detail__stars" aria-label="5 out of 5 stars">★★★★★</span><strong>Contemporary garden living</strong><small>Client handover</small></div>
                 </aside>
             </div>
         </div>

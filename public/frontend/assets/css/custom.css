@@ -12421,7 +12421,8 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
     padding: 46px;
     border-top: 4px solid var(--bs-clr-pr-1);
     background: var(--bs-clr-h-4);
-    box-shadow: 18px 18px 0 rgba(241, 99, 25, .14);
+    /* box-shadow: 18px 18px 0 rgba(241, 99, 25, .14); */
+    box-shadow: 18px 18px 0 rgb(164 121 102 / 78%);
 }
 
 .anx-story-detail__quote-mark {

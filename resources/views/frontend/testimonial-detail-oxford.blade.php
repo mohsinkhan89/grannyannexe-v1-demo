@@ -31,7 +31,7 @@
                     <article><i class="fa-solid fa-house"></i><div><small>Roof design</small><strong>Dual pitched</strong><span>Traditional steel roof</span></div></article>
                 </div>
             </div>
-            <aside class="anx-story-detail__quote"><div class="anx-story-detail__quote-mark"><i class="fa-solid fa-quote-left"></i></div><blockquote>Traditional styling and modern finishes combine to create a comfortable, welcoming living space.</blockquote><div class="anx-story-detail__reviewer"><strong>One-bedroom garden living</strong><small>Client handover</small></div></aside>
+            <aside class="anx-story-detail__quote"><div class="anx-story-detail__quote-mark"><i class="fa-solid fa-quote-left"></i></div><blockquote>Traditional styling and modern finishes combine to create a comfortable, welcoming living space.</blockquote><div class="anx-story-detail__reviewer"><span class="anx-story-detail__stars" aria-label="5 out of 5 stars">★★★★★</span><strong>One-bedroom garden living</strong><small>Client handover</small></div></aside>
         </div></div>
     </section>
 

@@ -28,7 +28,7 @@
                 <article><i class="fa-solid fa-bed"></i><div><small>Accommodation</small><strong>Two bedrooms</strong><span>Shower room and separate WC</span></div></article>
             </div>
         </div>
-        <aside class="anx-story-detail__quote"><div class="anx-story-detail__quote-mark"><i class="fa-solid fa-quote-left"></i></div><blockquote>Generous living space, premium finishes and thoughtful design create beautiful accommodation for multi-generational family living.</blockquote><div class="anx-story-detail__reviewer"><strong>Luxury two-bedroom living</strong><small>Client handover</small></div></aside>
+        <aside class="anx-story-detail__quote"><div class="anx-story-detail__quote-mark"><i class="fa-solid fa-quote-left"></i></div><blockquote>Generous living space, premium finishes and thoughtful design create beautiful accommodation for multi-generational family living.</blockquote><div class="anx-story-detail__reviewer"><span class="anx-story-detail__stars" aria-label="5 out of 5 stars">★★★★★</span><strong>Luxury two-bedroom living</strong><small>Client handover</small></div></aside>
     </div></div></section>
 
     <section class="anx-story-gallery"><div class="container bs-container-2">
