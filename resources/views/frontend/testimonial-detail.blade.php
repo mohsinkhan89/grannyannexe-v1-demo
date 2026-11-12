@@ -28,6 +28,11 @@
                     <h2 class="bs-sec-title-4">A spacious, modern annexe designed for comfortable living</h2>
                     <p>This impressive 12m x 6m luxury garden annexe combines generous living space, contemporary styling and high-quality finishes to create a versatile garden building designed for comfortable, everyday use.</p>
                     <p>With an overall footprint of approximately 72m², it provides valuable additional accommodation within the grounds of an existing property while retaining the privacy and independence of a separate garden space.</p>
+                    <div class="anx-story-detail__snapshot">
+                        <article><i class="fa-solid fa-ruler-combined"></i><div><small>Build size</small><strong>12m x 6m</strong><span>Approximately 72m²</span></div></article>
+                        <article><i class="fa-solid fa-sterling-sign"></i><div><small>Approximate price</small><strong>£148,000</strong><span>Bespoke turnkey project</span></div></article>
+                        <article><i class="fa-solid fa-house"></i><div><small>Project type</small><strong>Steel frame</strong><span>Luxury garden annexe</span></div></article>
+                    </div>
                 </div>
                 <aside class="anx-story-detail__quote">
                     <div class="anx-story-detail__quote-mark"><i class="fa-solid fa-quote-left"></i></div>
@@ -38,15 +43,6 @@
                         <small>Client handover</small>
                     </div>
                 </aside>
-            </div>
-            <div class="anx-story-detail__snapshot">
-                <div class="anx-story-detail__snapshot-heading">
-                    <span class="anx-eyebrow">Project snapshot</span>
-                    <h3>At a glance</h3>
-                </div>
-                <article><i class="fa-solid fa-ruler-combined"></i><div><small>Build size</small><strong>12m x 6m</strong><span>Approximately 72m²</span></div></article>
-                <article><i class="fa-solid fa-sterling-sign"></i><div><small>Approximate price</small><strong>£148,000</strong><span>Bespoke turnkey project</span></div></article>
-                <article><i class="fa-solid fa-house"></i><div><small>Project type</small><strong>Steel frame</strong><span>Luxury garden annexe</span></div></article>
             </div>
         </div>
     </section>
