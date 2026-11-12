@@ -8,7 +8,7 @@
 
 @section('content')
     <section class="anx-story-detail-hero">
-        <img src="{{ url('frontend/assets/testimonials/yt-16wnYRjph90.jpg') }}" alt="9.2m x 3.5m contemporary granny annexe" class="anx-story-detail-hero__image">
+        <img src="{{ url('frontend/assets/testimonials/bournemouth-aerial.jpg') }}" alt="Aerial view of the 9.2m x 3.5m contemporary granny annexe" class="anx-story-detail-hero__image">
         <div class="anx-story-detail-hero__overlay"></div>
         <div class="container bs-container-1 anx-story-detail-hero__content">
             <span class="anx-eyebrow anx-eyebrow--light">Real client experience</span>
@@ -95,7 +95,7 @@
     <section class="anx-story-detail-video">
         <div class="container bs-container-2">
             <div class="anx-story-detail-video__heading"><span class="anx-eyebrow">Client handover</span><h2>See how thoughtful design brings the project together</h2><p>Join Matt as he walks through this completed contemporary garden annexe with our clients, exploring the finished accommodation and highlighting the craftsmanship, finishes and practical features of this bespoke garden building.</p></div>
-            <button type="button" class="anx-story-detail-video__frame js-anx-story" data-video="https://www.youtube.com/embed/16wnYRjph90?autoplay=1&amp;rel=0" aria-label="Play the 9.2m x 3.5m contemporary annexe story"><img src="{{ url('frontend/assets/testimonials/yt-16wnYRjph90.jpg') }}" alt="Contemporary granny annexe client handover"><span><i class="fa-solid fa-play"></i></span></button>
+            <button type="button" class="anx-story-detail-video__frame js-anx-story" data-video="https://www.youtube.com/embed/16wnYRjph90?autoplay=1&amp;rel=0" aria-label="Play the 9.2m x 3.5m contemporary annexe story"><img src="{{ url('frontend/assets/testimonials/bournemouth-aerial.jpg') }}" alt="Aerial view of the contemporary granny annexe client handover"><span><i class="fa-solid fa-play"></i></span></button>
         </div>
     </section>
 

@@ -8,7 +8,7 @@
 
 @section('content')
     <section class="anx-story-detail-hero">
-        <img src="{{ url('frontend/assets/testimonials/yt-xUhxD-xejOc.jpg') }}" alt="12m x 6m steel frame garden annexe" class="anx-story-detail-hero__image">
+        <img src="{{ url('frontend/assets/testimonials/birmingham-12x6-annexe.jpg') }}" alt="12m x 6m luxury steel frame granny annexe" class="anx-story-detail-hero__image">
         <div class="anx-story-detail-hero__overlay"></div>
         <div class="container bs-container-1 anx-story-detail-hero__content">
             <span class="anx-eyebrow anx-eyebrow--light">Real client experience</span>
@@ -87,7 +87,7 @@
         <div class="container bs-container-2">
             <div class="anx-story-detail-video__heading"><span class="anx-eyebrow">Watch our client handover</span><h2>See the finished annexe and hear about the client experience</h2><p>Watch Matt walk through this completed luxury garden annexe with our clients, showcasing the finished building and discussing their experience of the project.</p></div>
             <button type="button" class="anx-story-detail-video__frame js-anx-story" data-video="https://www.youtube.com/embed/xUhxD-xejOc?autoplay=1&rel=0" aria-label="Play the 12m x 6m steel frame garden annexe story">
-                <img src="{{ url('frontend/assets/testimonials/yt-xUhxD-xejOc.jpg') }}" alt="12m x 6m steel frame garden annexe video">
+                <img src="{{ url('frontend/assets/testimonials/birmingham-12x6-annexe.jpg') }}" alt="12m x 6m luxury steel frame granny annexe video">
                 <span><i class="fa-solid fa-play"></i></span>
             </button>
         </div>
