@@ -11961,12 +11961,15 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-line] {
 
 @media(max-width:767px) {
     .anx-story-detail-hero {
-        min-height: 680px
+        /* min-height: 680px */
+        min-height: auto
     }
 
     .anx-story-detail-hero__content {
-        padding-top: 140px;
-        padding-bottom: 65px
+        /* padding-top: 140px;
+        padding-bottom: 65px */
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .anx-story-detail__crumbs {
