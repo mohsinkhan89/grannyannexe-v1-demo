@@ -58,29 +58,9 @@
         ],
     ];
     $homeStories = [
-        [
-            'label' => 'Featured video 01',
-            'title' => 'Granny Annexe Virtual Tour',
-            'text' => 'Take a closer look at one of our completed granny annexe projects and its finished living space.',
-            'image' => 'frontend/assets/img/client-videos/first-videos-img.png',
-            'video' => 'https://www.youtube.com/embed/-8Eud1S0bwk?autoplay=1&rel=0',
-        ],
-        [
-            'label' => 'Featured video 02',
-            'title' => '9.2m x 3.5m Contemporary Granny Annexe - Client Handover',
-            'text' => 'Explore this beautifully designed 32.2m² bespoke granny annexe, combining contemporary styling with practical, compact garden living.',
-            'image' => 'frontend/assets/testimonials/bournemouth-aerial.jpg',
-            'video' => 'https://www.youtube.com/embed/16wnYRjph90?autoplay=1&rel=0',
-            'slug' => '9-2m-x-3-5m-contemporary-granny-annexe-stylish-compact-garden-living',
-        ],
-        [
-            'label' => 'Featured video 03',
-            'title' => '9m x 6m Accessible Luxury Granny Annexe - Client Handover',
-            'text' => 'Explore this 54m² bespoke annexe with a pitched roof, accessible wet room, low-threshold entrance and external access ramp.',
-            'image' => 'frontend/assets/testimonials/cardiff-accessible-annexe.jpg',
-            'video' => 'https://www.youtube.com/embed/AIauVVhyAy8?autoplay=1&rel=0',
-            'slug' => '9m-x-6m-accessible-luxury-granny-annexe-client-handover',
-        ],
+        $stories[0],
+        $stories[1],
+        $stories[5],
     ];
     $visibleStories = $homeStories;
 
