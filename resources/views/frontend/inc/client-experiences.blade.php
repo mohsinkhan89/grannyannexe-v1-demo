@@ -11,11 +11,11 @@
         ],
         [
             'label' => 'Client story 02',
-            'title' => '9.2m x 3.5m Contemporary Granny Annexe Client Handover',
+            'title' => '9.2m x 3.5m Contemporary Granny Annexe - Stylish, Compact Garden Living',
             'text' => 'Explore this beautifully designed 32.2m² bespoke granny annexe, combining contemporary styling with practical, compact garden living.',
-            'image' => 'frontend/assets/img/client-videos/second-videos-img.png',
-            'video' => null,
-            'slug' => '9-2m-x-3-5m-contemporary-granny-annexe-client-handover',
+            'image' => 'frontend/assets/testimonials/yt-16wnYRjph90.jpg',
+            'video' => 'https://www.youtube.com/embed/16wnYRjph90?autoplay=1&rel=0',
+            'slug' => '9-2m-x-3-5m-contemporary-granny-annexe-stylish-compact-garden-living',
         ],
         [
             'label' => 'Client story 03',
@@ -56,13 +56,6 @@
             'video' => 'https://www.youtube.com/embed/FS25t1QmEtY?autoplay=1&rel=0',
             'slug' => '9m-x-4m-luxury-pitched-roof-granny-annexe-client-handover',
         ],
-        [
-            'label' => 'Client story 06',
-            'title' => 'Steel Frame Granny Annexe Walkthrough',
-            'text' => 'A complete walkthrough of a modern, insulated and turnkey steel-frame granny annexe.',
-            'image' => 'frontend/assets/testimonials/yt-16wnYRjph90.jpg',
-            'video' => 'https://www.youtube.com/embed/16wnYRjph90?autoplay=1&rel=0',
-        ],
     ];
     $homeStories = [
         [
@@ -74,10 +67,11 @@
         ],
         [
             'label' => 'Featured video 02',
-            'title' => 'Steel Frame Granny Annexe Walkthrough',
-            'text' => 'Explore a modern, insulated and turnkey steel-frame granny annexe from the inside.',
-            'image' => 'frontend/assets/img/client-videos/second-videos-img.png',
+            'title' => '9.2m x 3.5m Contemporary Granny Annexe - Stylish, Compact Garden Living',
+            'text' => 'Explore this beautifully designed 32.2m² bespoke granny annexe, combining contemporary styling with practical, compact garden living.',
+            'image' => 'frontend/assets/testimonials/yt-16wnYRjph90.jpg',
             'video' => 'https://www.youtube.com/embed/16wnYRjph90?autoplay=1&rel=0',
+            'slug' => '9-2m-x-3-5m-contemporary-granny-annexe-stylish-compact-garden-living',
         ],
         [
             'label' => 'Featured video 03',

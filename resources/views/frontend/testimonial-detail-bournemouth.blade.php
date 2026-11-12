@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title', '9.2m x 3.5m Contemporary Granny Annexe Client Handover | The Granny Annexe Company')
+@section('title', '9.2m x 3.5m Contemporary Granny Annexe | The Granny Annexe Company')
 
 @section('metas')
     <meta name="description" content="Explore this beautifully designed 32.2m² bespoke granny annexe with contemporary composite cladding, a fitted kitchen and modern shower room.">
@@ -8,12 +8,13 @@
 
 @section('content')
     <section class="anx-story-detail-hero">
-        <img src="{{ url('frontend/assets/img/client-videos/second-videos-img.png') }}" alt="9.2m x 3.5m contemporary granny annexe" class="anx-story-detail-hero__image">
+        <img src="{{ url('frontend/assets/testimonials/yt-16wnYRjph90.jpg') }}" alt="9.2m x 3.5m contemporary granny annexe" class="anx-story-detail-hero__image">
         <div class="anx-story-detail-hero__overlay"></div>
         <div class="container bs-container-1 anx-story-detail-hero__content">
             <span class="anx-eyebrow anx-eyebrow--light">Real client experience</span>
-            <h1>9.2m x 3.5m Contemporary Granny Annexe Client Handover</h1>
+            <h1>9.2m x 3.5m Contemporary Granny Annexe - Stylish, Compact Garden Living</h1>
             <p>Explore this beautifully designed 32m² bespoke granny annexe, combining stylish composite cladding, an EPDM flat roof with skylight, anthracite windows, aluminium French doors, a fitted kitchen and modern shower room.</p>
+            <button type="button" class="anx-story-detail__play js-anx-story" data-video="https://www.youtube.com/embed/16wnYRjph90?autoplay=1&amp;rel=0"><span><i class="fa-solid fa-play"></i></span> Watch the client story</button>
         </div>
     </section>
 
@@ -94,7 +95,7 @@
     <section class="anx-story-detail-video">
         <div class="container bs-container-2">
             <div class="anx-story-detail-video__heading"><span class="anx-eyebrow">Client handover</span><h2>See how thoughtful design brings the project together</h2><p>Join Matt as he walks through this completed contemporary garden annexe with our clients, exploring the finished accommodation and highlighting the craftsmanship, finishes and practical features of this bespoke garden building.</p></div>
-            <div class="anx-story-detail-video__frame"><img src="{{ url('frontend/assets/img/client-videos/second-videos-img.png') }}" alt="Contemporary granny annexe client handover"></div>
+            <button type="button" class="anx-story-detail-video__frame js-anx-story" data-video="https://www.youtube.com/embed/16wnYRjph90?autoplay=1&amp;rel=0" aria-label="Play the 9.2m x 3.5m contemporary annexe story"><img src="{{ url('frontend/assets/testimonials/yt-16wnYRjph90.jpg') }}" alt="Contemporary granny annexe client handover"><span><i class="fa-solid fa-play"></i></span></button>
         </div>
     </section>
 
@@ -104,4 +105,17 @@
             <a href="{{ route('contact') }}" class="bs-btn-1 onhover-border"><span class="text">PLAN YOUR ANNEXE</span><span class="shape"></span></a>
         </div>
     </section>
+
+    <div class="anx-story-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Client experience video"><button class="anx-story-modal__backdrop js-anx-story-close" type="button" aria-label="Close video"></button><div class="anx-story-modal__panel"><button class="anx-story-modal__close js-anx-story-close" type="button" aria-label="Close video"><i class="fa-solid fa-xmark"></i></button><iframe src="about:blank" title="Contemporary granny annexe video" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div></div>
 @endsection
+
+@push('anxExperienceScripts')
+<script>
+document.addEventListener('click', function (event) {
+    const modal = document.querySelector('.anx-story-modal'); const trigger = event.target.closest('.js-anx-story');
+    if (trigger && modal) { modal.querySelector('iframe').src = trigger.dataset.video; modal.classList.add('is-open'); modal.setAttribute('aria-hidden', 'false'); document.body.style.overflow = 'hidden'; }
+    if (event.target.closest('.js-anx-story-close') && modal) { modal.classList.remove('is-open'); modal.setAttribute('aria-hidden', 'true'); modal.querySelector('iframe').src = 'about:blank'; document.body.style.overflow = ''; }
+});
+document.addEventListener('keydown', function (event) { if (event.key === 'Escape') { const close = document.querySelector('.anx-story-modal.is-open .js-anx-story-close'); if (close) close.click(); } });
+</script>
+@endpush
